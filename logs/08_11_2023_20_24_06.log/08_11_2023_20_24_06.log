@@ -1,0 +1,7 @@
+[ 2023-08-11 20:24:08,490 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-11 20:24:08,505 ] 187 werkzeug - INFO -  * Debugger PIN: 111-616-259
+[ 2023-08-11 20:24:22,076 ] 187 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2023 20:24:22] "GET / HTTP/1.1" 200 -
+[ 2023-08-11 20:24:27,538 ] 187 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2023 20:24:27] "GET /predict HTTP/1.1" 200 -
+[ 2023-08-11 20:24:37,947 ] 58 root - INFO - Dataframe Gathered
+[ 2023-08-11 20:24:38,280 ] 187 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2023 20:24:38] "POST /predict HTTP/1.1" 200 -
+[ 2023-08-11 20:24:54,474 ] 187 werkzeug - INFO -  * Detected change in 'C:\\insurencepred\\application.py', reloading
