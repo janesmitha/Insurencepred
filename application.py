@@ -46,5 +46,6 @@ def predict_datapoint():
         expenses = predictions[0]
         return render_template('results.html', final_result=expenses)
 
+
 if __name__ == "__main__":
-    app.run(host='0.0.0.1', debug=True)
+    app.run(host='0.0.0.0', port=8080)
