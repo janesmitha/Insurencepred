@@ -1,0 +1,6 @@
+[ 2023-08-30 14:10:23,078 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-30 14:10:23,101 ] 187 werkzeug - INFO -  * Debugger PIN: 897-447-279
+[ 2023-08-30 14:10:23,329 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-30 14:10:23,352 ] 187 werkzeug - INFO -  * Debugger PIN: 487-145-368
+[ 2023-08-30 14:10:28,378 ] 187 werkzeug - INFO -  * Detected change in 'c:\\insurencepred\\src\\components\\model_trainer.py', reloading
+[ 2023-08-30 14:10:28,428 ] 187 werkzeug - INFO -  * Detected change in 'C:\\insurencepred\\src\\components\\model_trainer.py', reloading

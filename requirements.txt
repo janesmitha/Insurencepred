@@ -5,4 +5,5 @@ matplotlib
 seaborn
 pymongo
 scikit-learn
-#-e .
+
+-e .

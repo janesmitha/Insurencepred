@@ -32,10 +32,12 @@ class ModelTrainer:
         try:
             logging.info('Splitting Dependent and Independent variables from train and test data')
             X_train, y_train, X_test, y_test = (
-                train_array[:, :-1],
-                train_array[:, -1],
-                test_array[:, :-1],
-                test_array[:, -1]
+                # train_array[:, :-1],
+                # train_array[:, -1],
+                # test_array[:, :-1],
+                # test_array[:, -1]
+                train_array,
+                test_array
             )
 
             models = {

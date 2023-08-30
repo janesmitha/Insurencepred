@@ -1,0 +1,29 @@
+[ 2023-08-30 13:30:08,786 ] 28 root - INFO - Data Ingestion methods Starts
+[ 2023-08-30 13:30:08,833 ] 31 root - INFO - Dataset read from pandas Dataframe
+[ 2023-08-30 13:30:16,354 ] 38 root - INFO - data is inserted
+[ 2023-08-30 13:30:18,000 ] 42 root - INFO - Dataset read from pandas Dataframe
+[ 2023-08-30 13:30:18,031 ] 46 root - INFO - Train test split
+[ 2023-08-30 13:30:18,062 ] 52 root - INFO - Ingestion of Data is completed
+[ 2023-08-30 13:30:18,078 ] 71 root - INFO - Read train and test data completed
+[ 2023-08-30 13:30:18,078 ] 72 root - INFO - Train Dataframe Head:
+                        _id  age     sex   bmi  children smoker     region  expenses
+0  64eeef3a0018d179d760d213   38    male  20.0         1     no  northwest   5855.90
+1  64eeef3a0018d179d760cf09   57  female  38.0         2     no  southwest  12646.21
+2  64eeef3a0018d179d760cfe8   51  female  25.8         1     no  southwest   9861.03
+3  64eeef3a0018d179d760d055   19  female  24.5         1     no  northwest   2709.11
+4  64eef70907fed1ab1b9e695c   57    male  42.1         1    yes  southeast  48675.52
+[ 2023-08-30 13:30:18,093 ] 73 root - INFO - Test Dataframe Head:
+                        _id  age     sex   bmi  children smoker     region  expenses
+0  64eef70907fed1ab1b9e690d   30    male  24.1         1     no  northwest   4032.24
+1  64d61ec223def33056b3651c   26  female  29.4         2     no  northeast   4564.19
+2  64eeef3a0018d179d760cdf7   22    male  35.6         0    yes  southwest  35585.58
+3  64eeef3a0018d179d760d20a   54  female  28.9         2     no  northeast  12096.65
+4  64eeef3a0018d179d760d057   39    male  26.4         0    yes  northeast  20149.32
+[ 2023-08-30 13:30:18,093 ] 75 root - INFO - Obtaining preprocessing object
+[ 2023-08-30 13:30:18,093 ] 26 root - INFO - Data Transformation initiated
+[ 2023-08-30 13:30:18,093 ] 57 root - INFO - Pipeline Completed
+[ 2023-08-30 13:30:18,109 ] 92 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2023-08-30 13:30:18,109 ] 101 root - INFO - Preprocessor pickle file saved
+[ 2023-08-30 13:30:18,109 ] 33 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-08-30 13:30:21,443 ] 53 root - INFO - Model Report : {'LinearRegression': 0.7616213820056889, 'Lasso': 0.7598375629765884, 'Ridge': 0.7597775588338708, 'Elasticnet': 0.49934801185884437, 'SVR': -0.1007756347794746, 'DecisionTreeRegressor': 0.8719000611119245, 'RandomForestRegressor': 0.8827336668866268}
+[ 2023-08-30 13:30:21,445 ] 66 root - INFO - Best Model Found, Model Name: RandomForestRegressor, R2 Score: 0.8827336668866268
